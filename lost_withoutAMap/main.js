@@ -11,12 +11,10 @@ const ret = a.map
 
 }
 
-
 function maps(a){
 
 console.log("a is", a)
 const map1 = a.map(x => x * 2);
-
 
 return map1
 }
@@ -26,12 +24,6 @@ function maps0(foo){
   for(let i=0; i<foo.length;i++){
 
     foo2[i]=foo[i]*2
-
-
-
-
   }
-
   return foo2
-
 }
