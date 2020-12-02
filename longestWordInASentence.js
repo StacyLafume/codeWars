@@ -17,7 +17,7 @@ function longestWord(sen) {
 
     for(let word in wordHash){
         if (wordHash[word] === largest) return word 
-    }
+    } 
 }
 
 console.log(longestWord('Hi there, my name is Brad'))
